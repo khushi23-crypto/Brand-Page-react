@@ -1,11 +1,11 @@
 import React from 'react'
 
 function Navigation() {
-    
+
   return (
     <>
     <div>
-      <nav>
+      <nav className='container'>
         <div className='Logo'>
           <img src="" alt="Logo" />
         </div>
