@@ -21,6 +21,10 @@ nav{
     height: 72px;
     align-items: center;
 }
+.logo{
+    width: 20px;
+    height: 20px;
+}
 nav ul{
     display: flex;
     list-style: none;
@@ -34,15 +38,16 @@ button{
     color: white;
     font-family: 500;
 }
-.hro-content{
+.hero-content{
     display: flex;
     flex-direction: column;
     gap: 36px;
+    margin-top: 20px;
 }
 .hero{
     display: flex;
     align-items: center;
-    height: calc(100vh-72px);
+    height: calc(100vh-60px);
 }
 .hero h1{
     font-weight: 800;
@@ -72,4 +77,5 @@ button{
 .brand-icons{
     display: flex;
     gap: 16px;
+    size: 20px;
 }

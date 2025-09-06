@@ -6,8 +6,8 @@ function Navigation() {
     <>
     <div>
       <nav className='container'>
-        <div className='Logo'>
-          <img src="" alt="Logo" />
+        <div className='logo'>
+          <img src="/public/images/image.png" alt="Logo" />
         </div>
         <ul>
           <li href='#'>Menu </li>
